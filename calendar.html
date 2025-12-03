@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendar — The Wellspring</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script defer src="assets/js/main.js"></script>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container flex-between">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.svg" alt="Logo" class="brand__logo" />
+      <span class="brand__name">The Wellspring</span>
+    </a>
+
+    <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="team.html">Team</a></li>
+        <li><a href="youth.html">Youth</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a class="btn btn--primary" href="giving.html">Online Giving</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container">
+    <h1>Calendar</h1>
+    
+
+<div class="responsive-iframe">
+  <iframe src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FDenver" style="border:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container grid-3">
+    <div>
+      <h4 class="ft-title">About</h4>
+      <p>A community that loves God and people.</p>
+    </div>
+    <div>
+      <h4 class="ft-title">Visit</h4>
+      <p><strong>Sunday services:</strong> 11:00 AM</p>
+      <p><a href="https://facebook.com" target="_blank" rel="noopener">Livestream on Facebook</a></p>
+    </div>
+    <div>
+      <h4 class="ft-title">Get in touch</h4>
+      <ul class="unstyled">
+        <li><a href="contact.html">Contact form</a></li>
+        <li><a href="calendar.html">Events calendar</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ft-bottom">
+    <div class="container flex-between">
+      <p>&copy; <span id="year"></span> The Wellspring</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><span class="icon"></span></a>
+        <a href="#" aria-label="YouTube"><span class="icon"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
